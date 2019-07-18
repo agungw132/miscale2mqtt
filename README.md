@@ -12,7 +12,7 @@ hcitool lescan
 ```
 docker run -d --name miscale2mqtt --net host \
   -e MAC_ADDRESS=<mac_adress_mi_scale> \
-  -e MQTT_HOST=<host_ip_address> 
+  -e MQTT_HOST=<mqtt_broker_ip_address> 
   -e MQTT_PORT=<port> \
   -e MQTT_USER=<username> \ 
   -e MQTT_PASSWORD=<password> \
