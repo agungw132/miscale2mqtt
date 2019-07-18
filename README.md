@@ -16,7 +16,7 @@ docker run -d --name miscale2mqtt --net host \
   -e MQTT_PORT=<port> \
   -e MQTT_USER=<username> \ 
   -e MQTT_PASSWORD=<password> \
-  -e MQTT_DELAY=<timout_in_second> \
+  -e MQTT_DELAY=<timeout_in_second> \
   -e MQTT_INPUT=<rf_code_topic> \
   -e MQTT_OUTPUT=<published_topic>  \
   -v /etc/localtime:/etc/localtime:ro 
